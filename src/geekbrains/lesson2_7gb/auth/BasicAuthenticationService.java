@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class BasicAuthenticationService implements geekbrains.lesson2_7gb.auth.AuthenticationService {
+
     /**
      * Fake database with stubbed entities
      */

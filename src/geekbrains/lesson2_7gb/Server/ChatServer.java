@@ -32,6 +32,7 @@ public class ChatServer implements Server {
         }
     }
 
+
     // 2. * Реализовать личные сообщения, если клиент пишет «/w nick3 Привет»,
     // то только клиенту с ником nick3 должно прийти сообщение «Привет»
 
@@ -51,7 +52,6 @@ public class ChatServer implements Server {
             }
         }
     }
-
 
     @Override
     public synchronized void broadcastMessage(String message, String from) {

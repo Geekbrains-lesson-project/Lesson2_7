@@ -98,6 +98,7 @@ public class ClientHandler {
  */
 
 
+
 // Варианты для 3го задания:
 //Future<?> awaitingAuth = Executors.newSingleThreadExecutor ().submit (() -> {
 //    while (true) {

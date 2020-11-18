@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class ClientApp1 {
     public static void main(String[] args) {
+
         try {
             Socket socket = new Socket("localhost", 8888);
             DataInputStream in = new DataInputStream(socket.getInputStream());
